@@ -34,19 +34,22 @@
       <value>
         <list type="string">
             <value>
-              <string>Profile0</string>
-            </value>
-            <value>
-              <string>Profile2</string>
-            </value>
-            <value>
               <string>Default</string>
+            </value>
+            <value>
+              <string>Profile0</string>
             </value>
             <value>
               <string>Profile1</string>
             </value>
             <value>
+              <string>Profile2</string>
+            </value>
+            <value>
               <string>Profile3</string>
+            </value>
+            <value>
+              <string>Profile4</string>
             </value>
         </list>
       </value>
@@ -287,13 +290,6 @@
       </value>
     </entry>
     <entry>
-      <key>profiles/Default/alternate_screen_scroll</key>
-      <schema_key>/schemas/apps/gnome-terminal/profiles/Default/alternate_screen_scroll</schema_key>
-      <value>
-        <bool>true</bool>
-      </value>
-    </entry>
-    <entry>
       <key>profiles/Default/background_color</key>
       <schema_key>/schemas/apps/gnome-terminal/profiles/Default/background_color</schema_key>
       <value>
@@ -304,7 +300,7 @@
       <key>profiles/Default/background_darkness</key>
       <schema_key>/schemas/apps/gnome-terminal/profiles/Default/background_darkness</schema_key>
       <value>
-        <float>0.80000000000000004</float>
+        <float>0.5</float>
       </value>
     </entry>
     <entry>
@@ -392,6 +388,13 @@
       </value>
     </entry>
     <entry>
+      <key>profiles/Default/encoding</key>
+      <schema_key>/schemas/apps/gnome-terminal/profiles/Default/encoding</schema_key>
+      <value>
+        <string>current</string>
+      </value>
+    </entry>
+    <entry>
       <key>profiles/Default/exit_action</key>
       <schema_key>/schemas/apps/gnome-terminal/profiles/Default/exit_action</schema_key>
       <value>
@@ -402,14 +405,14 @@
       <key>profiles/Default/font</key>
       <schema_key>/schemas/apps/gnome-terminal/profiles/Default/font</schema_key>
       <value>
-        <string>Monospace 12</string>
+        <string>Monospace 11</string>
       </value>
     </entry>
     <entry>
       <key>profiles/Default/foreground_color</key>
       <schema_key>/schemas/apps/gnome-terminal/profiles/Default/foreground_color</schema_key>
       <value>
-        <string>#00FCA456F94D</string>
+        <string>#FFFFFFFFFFFF</string>
       </value>
     </entry>
     <entry>
@@ -430,7 +433,7 @@
       <key>profiles/Default/palette</key>
       <schema_key>/schemas/apps/gnome-terminal/profiles/Default/palette</schema_key>
       <value>
-        <string>#000000000000:#CCCC00000000:#4E4E9A9A0606:#C4C4A0A00000:#34346565A4A4:#757550507B7B:#060698209A9A:#D3D3D7D7CFCF:#555557575353:#EFEF29292929:#8A8AE2E23434:#FCFCE9E94F4F:#72729F9FCFCF:#ADAD7F7FA8A8:#3434E2E2E2E2:#EEEEEEEEECEC</string>
+        <string>#2E2E34343636:#CCCC00000000:#4E4E9A9A0606:#C4C4A0A00000:#34346565A4A4:#757550507B7B:#060698209A9A:#D3D3D7D7CFCF:#555557575353:#EFEF29292929:#8A8AE2E23434:#FCFCE9E94F4F:#72729F9FCFCF:#ADAD7F7FA8A8:#3434E2E2E2E2:#EEEEEEEEECEC</string>
       </value>
     </entry>
     <entry>
@@ -465,7 +468,7 @@
       <key>profiles/Default/scrollback_unlimited</key>
       <schema_key>/schemas/apps/gnome-terminal/profiles/Default/scrollback_unlimited</schema_key>
       <value>
-        <bool>true</bool>
+        <bool>false</bool>
       </value>
     </entry>
     <entry>
@@ -479,14 +482,14 @@
       <key>profiles/Default/silent_bell</key>
       <schema_key>/schemas/apps/gnome-terminal/profiles/Default/silent_bell</schema_key>
       <value>
-        <bool>false</bool>
+        <bool>true</bool>
       </value>
     </entry>
     <entry>
       <key>profiles/Default/title</key>
       <schema_key>/schemas/apps/gnome-terminal/profiles/Default/title</schema_key>
       <value>
-        <string>LOCAL</string>
+        <string>Terminal</string>
       </value>
     </entry>
     <entry>
@@ -521,12 +524,6 @@
       <key>profiles/Default/use_system_font</key>
       <schema_key>/schemas/apps/gnome-terminal/profiles/Default/use_system_font</schema_key>
       <value>
-        <bool>true</bool>
-      </value>
-    </entry>
-    <entry>
-      <key>profiles/Default/use_theme_background</key>
-      <value>
         <bool>false</bool>
       </value>
     </entry>
@@ -541,7 +538,7 @@
       <key>profiles/Default/visible_name</key>
       <schema_key>/schemas/apps/gnome-terminal/profiles/Default/visible_name</schema_key>
       <value>
-        <string>LOCAL</string>
+        <string>Default</string>
       </value>
     </entry>
     <entry>
@@ -553,12 +550,6 @@
     </entry>
     <entry>
       <key>profiles/Profile0/allow_bold</key>
-      <value>
-        <bool>true</bool>
-      </value>
-    </entry>
-    <entry>
-      <key>profiles/Profile0/alternate_screen_scroll</key>
       <value>
         <bool>true</bool>
       </value>
@@ -584,7 +575,7 @@
     <entry>
       <key>profiles/Profile0/background_type</key>
       <value>
-        <string>solid</string>
+        <string>transparent</string>
       </value>
     </entry>
     <entry>
@@ -626,7 +617,7 @@
     <entry>
       <key>profiles/Profile0/default_show_menubar</key>
       <value>
-        <bool>true</bool>
+        <bool>false</bool>
       </value>
     </entry>
     <entry>
@@ -656,13 +647,13 @@
     <entry>
       <key>profiles/Profile0/font</key>
       <value>
-        <string>Monospace 12</string>
+        <string>Monospace 11</string>
       </value>
     </entry>
     <entry>
       <key>profiles/Profile0/foreground_color</key>
       <value>
-        <string>#FCC40FCB071C</string>
+        <string>#FFFF00000000</string>
       </value>
     </entry>
     <entry>
@@ -698,7 +689,7 @@
     <entry>
       <key>profiles/Profile0/scrollback_lines</key>
       <value>
-        <int>512</int>
+        <int>9999</int>
       </value>
     </entry>
     <entry>
@@ -710,19 +701,19 @@
     <entry>
       <key>profiles/Profile0/scrollbar_position</key>
       <value>
-        <string>right</string>
+        <string>hidden</string>
       </value>
     </entry>
     <entry>
       <key>profiles/Profile0/silent_bell</key>
       <value>
-        <bool>false</bool>
+        <bool>true</bool>
       </value>
     </entry>
     <entry>
       <key>profiles/Profile0/title</key>
       <value>
-        <string>OFFICE</string>
+        <string>Terminal</string>
       </value>
     </entry>
     <entry>
@@ -750,19 +741,7 @@
       </value>
     </entry>
     <entry>
-      <key>profiles/Profile0/use_skey</key>
-      <value>
-        <bool>true</bool>
-      </value>
-    </entry>
-    <entry>
       <key>profiles/Profile0/use_system_font</key>
-      <value>
-        <bool>true</bool>
-      </value>
-    </entry>
-    <entry>
-      <key>profiles/Profile0/use_theme_background</key>
       <value>
         <bool>false</bool>
       </value>
@@ -776,7 +755,7 @@
     <entry>
       <key>profiles/Profile0/visible_name</key>
       <value>
-        <string>OFFICE</string>
+        <string>red</string>
       </value>
     </entry>
     <entry>
@@ -787,12 +766,6 @@
     </entry>
     <entry>
       <key>profiles/Profile1/allow_bold</key>
-      <value>
-        <bool>true</bool>
-      </value>
-    </entry>
-    <entry>
-      <key>profiles/Profile1/alternate_screen_scroll</key>
       <value>
         <bool>true</bool>
       </value>
@@ -818,7 +791,7 @@
     <entry>
       <key>profiles/Profile1/background_type</key>
       <value>
-        <string>solid</string>
+        <string>transparent</string>
       </value>
     </entry>
     <entry>
@@ -860,7 +833,7 @@
     <entry>
       <key>profiles/Profile1/default_show_menubar</key>
       <value>
-        <bool>true</bool>
+        <bool>false</bool>
       </value>
     </entry>
     <entry>
@@ -890,13 +863,13 @@
     <entry>
       <key>profiles/Profile1/font</key>
       <value>
-        <string>Monospace 12</string>
+        <string>Monospace 11</string>
       </value>
     </entry>
     <entry>
       <key>profiles/Profile1/foreground_color</key>
       <value>
-        <string>#0B0CC8A1FAAA</string>
+        <string>#3E4BFFFF0000</string>
       </value>
     </entry>
     <entry>
@@ -944,19 +917,19 @@
     <entry>
       <key>profiles/Profile1/scrollbar_position</key>
       <value>
-        <string>right</string>
+        <string>hidden</string>
       </value>
     </entry>
     <entry>
       <key>profiles/Profile1/silent_bell</key>
       <value>
-        <bool>false</bool>
+        <bool>true</bool>
       </value>
     </entry>
     <entry>
       <key>profiles/Profile1/title</key>
       <value>
-        <string>BRIX</string>
+        <string>Terminal</string>
       </value>
     </entry>
     <entry>
@@ -984,19 +957,7 @@
       </value>
     </entry>
     <entry>
-      <key>profiles/Profile1/use_skey</key>
-      <value>
-        <bool>true</bool>
-      </value>
-    </entry>
-    <entry>
       <key>profiles/Profile1/use_system_font</key>
-      <value>
-        <bool>true</bool>
-      </value>
-    </entry>
-    <entry>
-      <key>profiles/Profile1/use_theme_background</key>
       <value>
         <bool>false</bool>
       </value>
@@ -1010,7 +971,7 @@
     <entry>
       <key>profiles/Profile1/visible_name</key>
       <value>
-        <string>BRIX</string>
+        <string>green</string>
       </value>
     </entry>
     <entry>
@@ -1021,12 +982,6 @@
     </entry>
     <entry>
       <key>profiles/Profile2/allow_bold</key>
-      <value>
-        <bool>true</bool>
-      </value>
-    </entry>
-    <entry>
-      <key>profiles/Profile2/alternate_screen_scroll</key>
       <value>
         <bool>true</bool>
       </value>
@@ -1052,7 +1007,7 @@
     <entry>
       <key>profiles/Profile2/background_type</key>
       <value>
-        <string>solid</string>
+        <string>transparent</string>
       </value>
     </entry>
     <entry>
@@ -1094,7 +1049,7 @@
     <entry>
       <key>profiles/Profile2/default_show_menubar</key>
       <value>
-        <bool>true</bool>
+        <bool>false</bool>
       </value>
     </entry>
     <entry>
@@ -1124,13 +1079,13 @@
     <entry>
       <key>profiles/Profile2/font</key>
       <value>
-        <string>Monospace 12</string>
+        <string>Monospace 11</string>
       </value>
     </entry>
     <entry>
       <key>profiles/Profile2/foreground_color</key>
       <value>
-        <string>#0B0CC6FFFAAA</string>
+        <string>#BEC70000FFFF</string>
       </value>
     </entry>
     <entry>
@@ -1166,7 +1121,7 @@
     <entry>
       <key>profiles/Profile2/scrollback_lines</key>
       <value>
-        <int>512</int>
+        <int>999</int>
       </value>
     </entry>
     <entry>
@@ -1178,19 +1133,19 @@
     <entry>
       <key>profiles/Profile2/scrollbar_position</key>
       <value>
-        <string>right</string>
+        <string>hidden</string>
       </value>
     </entry>
     <entry>
       <key>profiles/Profile2/silent_bell</key>
       <value>
-        <bool>false</bool>
+        <bool>true</bool>
       </value>
     </entry>
     <entry>
       <key>profiles/Profile2/title</key>
       <value>
-        <string>HOMER</string>
+        <string>Terminal</string>
       </value>
     </entry>
     <entry>
@@ -1218,19 +1173,7 @@
       </value>
     </entry>
     <entry>
-      <key>profiles/Profile2/use_skey</key>
-      <value>
-        <bool>true</bool>
-      </value>
-    </entry>
-    <entry>
       <key>profiles/Profile2/use_system_font</key>
-      <value>
-        <bool>true</bool>
-      </value>
-    </entry>
-    <entry>
-      <key>profiles/Profile2/use_theme_background</key>
       <value>
         <bool>false</bool>
       </value>
@@ -1244,7 +1187,7 @@
     <entry>
       <key>profiles/Profile2/visible_name</key>
       <value>
-        <string>HOMER</string>
+        <string>purple</string>
       </value>
     </entry>
     <entry>
@@ -1255,12 +1198,6 @@
     </entry>
     <entry>
       <key>profiles/Profile3/allow_bold</key>
-      <value>
-        <bool>true</bool>
-      </value>
-    </entry>
-    <entry>
-      <key>profiles/Profile3/alternate_screen_scroll</key>
       <value>
         <bool>true</bool>
       </value>
@@ -1286,7 +1223,7 @@
     <entry>
       <key>profiles/Profile3/background_type</key>
       <value>
-        <string>solid</string>
+        <string>transparent</string>
       </value>
     </entry>
     <entry>
@@ -1328,7 +1265,7 @@
     <entry>
       <key>profiles/Profile3/default_show_menubar</key>
       <value>
-        <bool>true</bool>
+        <bool>false</bool>
       </value>
     </entry>
     <entry>
@@ -1358,13 +1295,13 @@
     <entry>
       <key>profiles/Profile3/font</key>
       <value>
-        <string>Monospace 12</string>
+        <string>Monospace 11</string>
       </value>
     </entry>
     <entry>
       <key>profiles/Profile3/foreground_color</key>
       <value>
-        <string>#FAAA7CA30B0C</string>
+        <string>#FFFF7AA40000</string>
       </value>
     </entry>
     <entry>
@@ -1400,7 +1337,7 @@
     <entry>
       <key>profiles/Profile3/scrollback_lines</key>
       <value>
-        <int>512</int>
+        <int>999</int>
       </value>
     </entry>
     <entry>
@@ -1412,19 +1349,19 @@
     <entry>
       <key>profiles/Profile3/scrollbar_position</key>
       <value>
-        <string>right</string>
+        <string>hidden</string>
       </value>
     </entry>
     <entry>
       <key>profiles/Profile3/silent_bell</key>
       <value>
-        <bool>false</bool>
+        <bool>true</bool>
       </value>
     </entry>
     <entry>
       <key>profiles/Profile3/title</key>
       <value>
-        <string>MICKO</string>
+        <string>Terminal</string>
       </value>
     </entry>
     <entry>
@@ -1452,19 +1389,7 @@
       </value>
     </entry>
     <entry>
-      <key>profiles/Profile3/use_skey</key>
-      <value>
-        <bool>true</bool>
-      </value>
-    </entry>
-    <entry>
       <key>profiles/Profile3/use_system_font</key>
-      <value>
-        <bool>true</bool>
-      </value>
-    </entry>
-    <entry>
-      <key>profiles/Profile3/use_theme_background</key>
       <value>
         <bool>false</bool>
       </value>
@@ -1478,11 +1403,227 @@
     <entry>
       <key>profiles/Profile3/visible_name</key>
       <value>
-        <string>MICKO</string>
+        <string>orange</string>
       </value>
     </entry>
     <entry>
       <key>profiles/Profile3/word_chars</key>
+      <value>
+        <string>-A-Za-z0-9,./?%&amp;#:_=+@~</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/allow_bold</key>
+      <value>
+        <bool>true</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/background_color</key>
+      <value>
+        <string>#000000000000</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/background_darkness</key>
+      <value>
+        <float>0.5</float>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/background_image</key>
+      <value>
+        <string></string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/background_type</key>
+      <value>
+        <string>transparent</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/backspace_binding</key>
+      <value>
+        <string>ascii-del</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/bold_color</key>
+      <value>
+        <string>#000000000000</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/bold_color_same_as_fg</key>
+      <value>
+        <bool>true</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/cursor_blink_mode</key>
+      <value>
+        <string>system</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/cursor_shape</key>
+      <value>
+        <string>block</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/custom_command</key>
+      <value>
+        <string></string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/default_show_menubar</key>
+      <value>
+        <bool>false</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/default_size_columns</key>
+      <value>
+        <int>80</int>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/default_size_rows</key>
+      <value>
+        <int>24</int>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/delete_binding</key>
+      <value>
+        <string>escape-sequence</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/exit_action</key>
+      <value>
+        <string>close</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/font</key>
+      <value>
+        <string>Monospace 11</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/foreground_color</key>
+      <value>
+        <string>#0000E5B7FFFF</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/login_shell</key>
+      <value>
+        <bool>false</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/palette</key>
+      <value>
+        <string>#2E2E34343636:#CCCC00000000:#4E4E9A9A0606:#C4C4A0A00000:#34346565A4A4:#757550507B7B:#060698209A9A:#D3D3D7D7CFCF:#555557575353:#EFEF29292929:#8A8AE2E23434:#FCFCE9E94F4F:#72729F9FCFCF:#ADAD7F7FA8A8:#3434E2E2E2E2:#EEEEEEEEECEC</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/scroll_background</key>
+      <value>
+        <bool>true</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/scroll_on_keystroke</key>
+      <value>
+        <bool>true</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/scroll_on_output</key>
+      <value>
+        <bool>false</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/scrollback_lines</key>
+      <value>
+        <int>999</int>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/scrollback_unlimited</key>
+      <value>
+        <bool>false</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/scrollbar_position</key>
+      <value>
+        <string>hidden</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/silent_bell</key>
+      <value>
+        <bool>true</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/title</key>
+      <value>
+        <string>Terminal</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/title_mode</key>
+      <value>
+        <string>replace</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/update_records</key>
+      <value>
+        <bool>true</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/use_custom_command</key>
+      <value>
+        <bool>false</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/use_custom_default_size</key>
+      <value>
+        <bool>false</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/use_system_font</key>
+      <value>
+        <bool>false</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/use_theme_colors</key>
+      <value>
+        <bool>false</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/visible_name</key>
+      <value>
+        <string>blue</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Profile4/word_chars</key>
       <value>
         <string>-A-Za-z0-9,./?%&amp;#:_=+@~</string>
       </value>
